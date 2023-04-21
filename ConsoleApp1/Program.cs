@@ -5,7 +5,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello world"); //print
+      /*  Console.WriteLine("Hello world"); //print
         int x = 10;
         String s = "T2207A";
         double pi = 3.14159;
@@ -46,7 +46,23 @@ public class Program
         //st.Run();
         //st.Learn();
         st.Learn();
-        st.Learn();
+        st.Learn("ABC");
+        Console.WriteLine(st.Name);
+        st.Name = "Nguyen Van An";
+
+        Human h = new Human(); 
+        Human h2 = new Human();
+
+        h.family[0] = "Nguyen Duc Anh";
+        Console.WriteLine(h.family[0]);
+
+        h2[0] = "Dao Nhat Tan";
+
+        List<string> strs = new List<string>();
+        strs.Add("Hello");
+        Console.WriteLine(strs[0]);*/
+
+        //Car c = new Car();// trong C# khong co anonymous class
     }
 
     private static bool IsPrimed(int n)
