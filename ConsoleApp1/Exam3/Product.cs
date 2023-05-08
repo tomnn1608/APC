@@ -6,7 +6,37 @@ using System.Threading.Tasks;
 
 namespace T2207A.Exam3
 {
-    internal class Product
+    public class Product
     {
+        private int id;
+        private string name;
+        private double price;
+
+        public Product()
+        {
+
+        }
+        public Product(int id, string name, double price)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+        }
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public double Price
+        {
+            get { return price; }
+            set { price = value; }
+        }
     }
 }

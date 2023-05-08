@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using T2207A.Exam3;
 
-namespace T2207A.Exam3
+namespace T2207A.exam
 {
     public class ListProduct
     {
